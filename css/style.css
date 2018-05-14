@@ -14,14 +14,11 @@ nav {
 
 h1 {
   font-size: 1.125em;
-
-
 }
 
 h2 {
   font-size: 1em;
   font-weight: 600;
-
 }
 
 h4 {
@@ -39,7 +36,6 @@ h6 {
   font-size: 0.75em;
   font-weight: 300;
   width: 100%;
-
 }
 /**************** STATUSBAR **************/
 .status-bar {
@@ -51,7 +47,6 @@ h6 {
   float: left;
   margin-left: 3%;
   margin-top: 1%;
-
 }
 
 .fa-wifi {
@@ -71,10 +66,10 @@ h6 {
 }
 
 .fido p{
-float: left;
-font-size: 0.75em;
-margin-left: 1%;
-margin-top: 1.5%;
+  float: left;
+  font-size: 0.75em;
+  margin-left: 1%;
+  margin-top: 1.5%;
 }
 
 .battery p{
@@ -82,7 +77,6 @@ margin-top: 1.5%;
   margin-top: 1.5%;
   float: left;
   margin-left: 28%;
-
 }
 
 .fa-battery-three-quarters {
@@ -90,7 +84,6 @@ margin-top: 1.5%;
   float: right;
   margin-top: 1%;
   margin-right: 1%;
-
 }
 
 /*********** NAV ********/
@@ -112,29 +105,23 @@ margin-top: 1.5%;
 }
 
 .search-bar {
-
   height: 4em;
   box-shadow: 0 0.0625em gainsboro;
 }
+
 .search-bar i {
   float: left;
   padding-top: 8%;
   padding-left: 23%;
-  color: #A8D5FF;
-
-
-
+  color: #A8D5FF
 }
 
 .search-bar h5 {
   padding-top: 8%;
-
   text-align: center;
   float: right;
   padding-right: 27%;
   padding-bottom: 1.5%;
-
-
 }
 
 .underline {
@@ -142,15 +129,14 @@ margin-top: 1.5%;
   background-color: #B0B0B0;
   width: 55%;
   margin: 0 auto;
-
-margin-left: 22.5%;
+  margin-left: 22.5%;
   float: left;
 }
+
 .empty {
   background-color: white;
   padding-bottom: 0.875em;
 }
-
 
 /******* CONTENT *********/
 .bus-list {
@@ -183,6 +169,7 @@ margin-left: 22.5%;
   float: right;
   padding-top: 5%;
 }
+
 .content-right h6 {
   padding-top: 10%;
   float: right;
@@ -191,8 +178,9 @@ margin-left: 22.5%;
 
 /* CONTENT RIGHT ENDS */
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
+
 .container {
   margin: 0 auto;
   width: 375px;
@@ -223,6 +211,7 @@ margin-left: 22.5%;
   width: 30%;
   float: right;
 }
+
 .content-left {
   float: left;
 }
